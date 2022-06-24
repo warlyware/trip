@@ -98,7 +98,7 @@ export default function Home() {
             <p>
               Our ancestors were monkeys. And we were monkeys, until we
               discovered the gifts of Chorles. We became educated in all the
-              ways the might amplify our senses and extend our understanding of
+              ways it might amplify our senses and extend our understanding of
               the world around us. We noticed we could sense things we couldn't
               before, things that weren't there before. Things we didn't know
               were there.
