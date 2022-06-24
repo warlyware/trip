@@ -1,0 +1,104 @@
+/* 
+   keyframes is the tool that enables
+   us to do a transition from one state to another
+   the "animation-*" properties in the css rules
+   below control various aspects of the transition
+   (such as when it will begin, and how long it will
+   take). By using keyframes, you can reuse the same
+   transition repeatedly, tweaking the animation
+   rules to suit your needs.
+  
+   see for more details:
+   https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations 
+*/
+
+@keyframes slide-rainbow-stripe {
+  from {
+    height: 0px;
+  }
+  to {
+    height: 100vh;
+  }
+}
+
+.rainbow {
+  display: flex;
+  flex-direction: row;
+}
+
+/* 
+   The majority of the animation settings
+   are the same for all stripes, so I set them
+   here and then set the delay separately for
+   each stripe below 
+*/
+.rainbow__stripe {
+  height: 0px;
+  width: 100%;
+  animation-name: slide-rainbow-stripe;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1.1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.red {
+  background: red;
+  animation-delay: 0.5s;
+}
+
+.orange {
+  background: orange;
+  animation-delay: .9s;
+}
+
+.yellow {
+  background: yellow;
+  animation-delay: 1.3s;
+}
+
+.green {
+  background: green;
+  animation-delay: 1.7s;
+}
+
+.blue {
+  background: blue;
+  animation-delay: 1.9s;
+}
+
+.purple {
+  background: purple;
+  animation-delay: 2.05s;
+}
+
+.pink {
+  background: pink;
+  animation-delay: 2.1s;
+}
+
+@keyframes slide-story-up {
+  from {
+    height: 0px;
+    opacity: 0;
+    width: 0%;
+    margin-top: 80vh;
+  }
+  to {
+    height: 70vh;
+    opacity: 100%;
+    margin-top: 0;
+  }
+}
+
+.story-to-slide {
+  animation-delay: 1s;
+  height: 0px;
+  opacity: 0;
+  width: 30%;
+  animation-name: slide-story-up;
+  animation-timing-function: ease-in-out;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
