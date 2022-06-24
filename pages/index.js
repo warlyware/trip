@@ -126,8 +126,9 @@ export default function Home() {
               existence that is truly beyond understanding or explanation by any
               means within this world or any other. We have been blessed with
               our newfound <span className="italic">freedom</span> of expressing
-              ourself through complex language, we discover that it becomes a
-              new from of <span className="italic">imprisonment</span>.
+              ourselves through complex language, we yet discover that it
+              becomes a new from of <span className="italic">imprisonment</span>
+              .
             </p>
             <p>
               So to gain enlightenment we meditated. And this is why we meditate
