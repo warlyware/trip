@@ -95,7 +95,6 @@
   animation-delay: 1s;
   height: 0px;
   opacity: 0;
-  width: 30%;
   animation-name: slide-story-up;
   animation-timing-function: ease-in-out;
   animation-duration: 4s;
