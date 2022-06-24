@@ -81,7 +81,9 @@ export default function Home() {
           <div className="overflow-scroll prose-xl space-y-2 pt-4">
             <p>
               This is my story. My name is Warly, he who speaks the light of all
-              colors.
+              colors. As a humble disciple, I shall provide a true accounts of
+              the miracles witnessed by our tribe, recorded here for all to read
+              so that the mission may be spread.
             </p>
             <p>
               I'm a creature of the jungle. I'm not like other monkeys. I'm
