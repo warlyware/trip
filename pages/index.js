@@ -77,7 +77,7 @@ export default function Home() {
         </div> */}
       </div>
       <div className="absolute h-[70vh] w-screen bottom-0 right-0 left-0 m-auto flex justify-center">
-        <div className="p-4 max-w-xl w-[80vw] bg-cyan-200 font-bold text-lg rounded shadow-2xl story-to-slide overflow-auto">
+        <div className="p-4 max-w-[680px] w-[80vw] bg-cyan-200 font-bold text-lg rounded shadow-2xl story-to-slide overflow-auto">
           <div className="overflow-scroll prose-xl space-y-2 pt-4">
             <p>
               This is my story. My name is Warly, he who speaks the light of all
